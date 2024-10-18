@@ -1,0 +1,247 @@
+/*Estilos CSS*/
+*{
+	margin: 0;
+    padding: 0;
+	font-family: Arial;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+h1,h2,h3,p,div {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+	font-family: arial;
+	font-size: 25px;
+	text-align: center;
+}
+h3 {
+	margin-top: 15px;
+}
+p {
+	margin-top: 15px;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	background-color: black;
+	align-items: center;
+	padding: 5px 30px;
+}
+.menu {
+	list-style: none;
+}
+.menu li {
+	display: inline-block;
+}
+.menu li a {
+	text-decoration: none;
+	padding: 5px 8px;
+	color: white;
+	font-size: 20px;
+}
+menu li a:hover {
+	color: black;
+	background-color: white;
+}
+.logo {
+	color: white;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+}
+.banner {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+  .texto-sobre-imagen {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: white;
+  }
+  h1 {
+	font-size: 2.5rem;
+  }
+  
+  p {
+	font-size: 1.2rem;
+	margin: 10px 0;
+  }
+  .boton0 {
+	text-decoration: none;
+	border: 1px solid white;
+	background-color: transparent;
+	color: white;
+	padding: 20px 40px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: inline-block;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+/*Estilos para la Seccion1*/
+.servicios {
+	width: 100%;
+	background-color:rgb(242, 239, 235);
+	
+}
+.cajaImagenes {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.itemImagenes {
+	margin: 20px;
+	text-align: center;
+	
+	
+}
+.centrar {
+	text-align: center;
+}
+.boton-img {
+	text-decoration: none;
+	background-color: #287233;
+	color: white;
+	padding: 10px 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: inline-block;
+	border-radius: 5px;
+	
+}
+
+/*Estilos para la Seccion2*/
+
+.servicios-otros {
+	width: 100%;
+	margin: auto;
+}
+.cajaIconos {
+	display: flex;
+}
+.itemIconos {
+	margin: 50px;
+	text-align: center;
+	padding: 20px;
+}
+.boton2 {
+	text-decoration: none;
+	background-color: #287233;
+	color: white;
+	padding: 10px 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+/*-----footer--------*/
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	
+	
+}
+
+footer {
+	padding: 100px 0 50px 0;
+	background-color: #3D3D49;
+}
+.footer-link {
+	display: flex;
+	justify-content: center;
+	
+}
+.link {
+	width: 300px;
+}
+.link h3 {
+	font-size: 18px;
+	color: #D6D6E2;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.link a {
+	font-size: 17px;
+	color: #B7B8BE;
+	display: block;
+	margin-bottom: 20px;
+}
+.link a:hover {
+	color: #00C3FF;
+}
+.logo-footer {
+	color: white;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 25px;
+	margin-top: 80px;
+	padding: 0;
+}
+.socials {
+	display: flex;
+	margin-bottom: 15px;
+}
+.socials a {
+	display: inline-block;
+	min-height: 40px;
+	width: 40px;
+	background-color: #00C3FF;
+	margin: 0 15px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+.socials a:hover {
+	background-color: #FFFFFF;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+input {
+	background-color: transparent;
+	padding: 14px;
+	outline: none;
+	border: 2px solid #5F5F6E;
+	font-size: 17px;
+	margin-bottom: 15px;
+	color: #B7B8BE;
+}
+
+::placeholder {
+	color: #B7B8BE;
+}
+.btn {
+	background-color: #00C3FF;
+	color: #FFFFFF;
+	border: 0;
+}
+hr {
+	border: 1px solid #5F5F6E;
+	margin: 35px 0;
+}
+.footer-text {
+	display: flex;
+	justify-content: space-between;
+}
+.footer-text p {
+	font-size: 15px;
+	color: #B7B8BE;
+}
