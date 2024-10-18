@@ -245,3 +245,23 @@ hr {
 	font-size: 15px;
 	color: #B7B8BE;
 }
+
+.diversion {
+	max-width: 1200px;
+	margin: 0 auto;
+	
+}
+.cajaDiversion {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+.parrafo-boton {
+	margin: 50px;
+}
+.parrafo-boton p {
+	text-align: center;
+}
+.boton-diversion {
+	text-align: center;
+}
