@@ -16,12 +16,14 @@ h2 {
 	font-family: arial;
 	font-size: 25px;
 	text-align: center;
+	
 }
 h3 {
 	margin-top: 15px;
 }
 p {
 	margin-top: 15px;
+	text-align: center;
 }
 header {
 	display: flex;
@@ -34,7 +36,12 @@ header {
 	list-style: none;
 }
 .menu li {
-	display: inline-block;
+	display: block;
+	
+}
+.menu > li {
+	float: left;
+	
 }
 .menu li a {
 	text-decoration: none;
@@ -42,9 +49,32 @@ header {
 	color: white;
 	font-size: 20px;
 }
-menu li a:hover {
+.menu li a:hover {
 	color: black;
 	background-color: white;
+}
+.menu li ul {
+	display: none;
+	position: absolute;
+	min-width: 100px;
+}
+.menu li:hover > ul {
+	display: block;
+}
+.menu li ul li {
+	position: relative;
+	background-color: black;
+}
+
+.submenu {
+	position: absolute;
+	width: 130%;
+	
+}
+.submenu li a {
+	display: block;
+	padding: 15px;
+	width: 130px;
 }
 .logo {
 	color: white;
@@ -61,6 +91,7 @@ menu li a:hover {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	
 }
 
   .texto-sobre-imagen {
@@ -97,6 +128,7 @@ menu li a:hover {
 	width: 100%;
 	background-color:rgb(242, 239, 235);
 	
+	
 }
 .cajaImagenes {
 	display: flex;
@@ -106,7 +138,6 @@ menu li a:hover {
 .itemImagenes {
 	margin: 20px;
 	text-align: center;
-	
 	
 }
 .centrar {
@@ -129,9 +160,11 @@ menu li a:hover {
 .servicios-otros {
 	width: 100%;
 	margin: auto;
+	
 }
 .cajaIconos {
 	display: flex;
+	justify-content: center;
 }
 .itemIconos {
 	margin: 50px;
@@ -261,7 +294,21 @@ hr {
 }
 .parrafo-boton p {
 	text-align: center;
-}
+}	
 .boton-diversion {
 	text-align: center;
+}
+
+.testimonio {
+	max-width: 1200px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.cajaTestimonio {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+.parrafoTestimonio {
+	margin: 50px;
 }
