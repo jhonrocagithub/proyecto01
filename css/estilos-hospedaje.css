@@ -123,21 +123,36 @@ header {
 	font-size: 20px;
 }
 
-/*Estilos para la Piscinas*/
-.piscinas {
-	width: 100%;
-	background-color:rgb(242, 239, 235);
+/*Estilos Hospedajes*/
+.hospedaje {
 	
 }
-.cajaPiscinas {
-	display:flex;
-	justify-content: center;
+.cajaHospedaje {
+	margin: 20px;
 }
-.itemPiscinas {
+.itemHospedaje {
 	display: flex;
+	justify-content: center;
+	background-color: #f1c40f;
+	text-align: center;
+	border-radius: 20px;
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 20px;
 }
-.titulo-parrafo {
-	margin: 100px;
+.img-habitacion {
+	width: 50%;
+	margin: 20px;
+	padding: 20px;
+	margin: 20px;
+	text-align: center;
+}
+.tipo-habitacion {
+	width: 50%;
+	margin: 20px;
+	padding: 20px;
+	margin: 20px;
+	
 }
 
 /*-----footer--------*/
